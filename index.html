@@ -3,9 +3,63 @@
 <head>
 <meta charset="utf-8">
 	<title>徐慢慢的游戏2048</title>
+	<style type="text/css">
+		/*在这里写css样式*/
+		/*
+		把div的border显示出来
+		调增元素的大小
+		浮动-想办法排列成4*4的样式
+		间距、大小 -盒模型
+		设定颜色
+		*/
+		/*div{width:280px; height: 280px;}*/
+		
+		/*div {width: 80px;
+			height: 80px;
+
+			div{
+	
+				float: right;}*/
+		.big{ background-color :grey; 
+		       border-style: solid;
+				border-color: blue;
+				border-width: 1px;
+				height: 410px;
+				width: 410px;
+			}
+		.item {width: 80px; height: 80px;
+		        background-color :green;
+		        border-style: solid;
+				border-color: black;
+				border-width: 1px;
+				margin: 10px;
+				float :left;
+		}
+	</style>
+
 </head>
 <body>
-第一次修改
-第二次修改
+	<h1>2048</h1>
+	<h2>new game</h2>
+	<h3>score: 0</h3>
+	
+	<div class ='big'>
+		<div class ="item">1</div>
+		<div class ="item">2</div>
+		<div class ="item">3</div>
+		<div class ="item">4</div>
+		<div class ="item">5</div>
+		<div class ="item">6</div>
+		<div class ="item">7</div>
+		<div class ="item">8</div>
+		<div class ="item">9</div>
+		<div class ="item">10</div>
+		<div class ="item">11</div>
+		<div class ="item">12</div>
+		<div class ="item">13</div>
+		<div class ="item">14</div>
+		<div class ="item">15</div>
+		<div class ="item">16</div>
+	</div>
 </body>
 </html>
